@@ -1,16 +1,7 @@
 
 import React from "react";
-import CountdownTimer from "../common/CountdownTimer";
 
 const TopBanner = () => {
-  // Set the target date to Friday at 2pm EST (convert to user's local time)
-  const targetDate = new Date();
-  // Find the next Friday
-  targetDate.setDate(targetDate.getDate() + (5 + 7 - targetDate.getDay()) % 7);
-  // Set time to 2pm EST (which is 14:00 in 24-hour format)
-  // EST is UTC-5, so we're setting to 19:00 UTC
-  targetDate.setHours(19, 0, 0, 0);
-
   return (
     <div className="bg-gradient-to-r from-primary to-accent py-2 text-white text-center relative z-[55]">
       <div className="container mx-auto px-4">
@@ -26,7 +17,6 @@ const TopBanner = () => {
             Learn more
           </a>
         </p>
-        <CountdownTimer targetDate={targetDate} />
       </div>
     </div>
   );

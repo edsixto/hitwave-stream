@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Facebook, Twitter, Instagram, Youtube, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Youtube, Mail, ExternalLink, Tag } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,6 +13,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Hit<span className="text-primary">95</span></h3>
             <p className="text-muted-foreground mb-4">
               Your premier destination for the hottest music, exclusive shows, and the best DJ mixes.
+              Contact us at <span className="font-medium">(XXX) XXX-XXXX</span>
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="h-9 w-9 rounded-full">
@@ -26,6 +27,19 @@ const Footer = () => {
               </Button>
               <Button variant="ghost" size="icon" className="h-9 w-9 rounded-full">
                 <Youtube className="h-5 w-5" />
+              </Button>
+            </div>
+            <div className="mt-4">
+              <Button size="sm" variant="outline" className="gap-2 w-full">
+                <Tag className="h-4 w-4" />
+                <a 
+                  href="https://mynamebrand.com/name/Hit95.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full text-left"
+                >
+                  This Domain Is For Sale
+                </a>
               </Button>
             </div>
           </div>
@@ -60,14 +74,27 @@ const Footer = () => {
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">Privacy Policy</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">Terms of Service</a></li>
             </ul>
+            <div className="mt-4">
+              <Button size="sm" variant="secondary" className="gap-2 w-full">
+                <ExternalLink className="h-4 w-4" />
+                <a 
+                  href="https://mynamebrand.com/name/Hit95.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full text-left"
+                >
+                  Buy Hit95.com Now
+                </a>
+              </Button>
+            </div>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Subscribe to Newsletter</h4>
             <p className="text-muted-foreground mb-4">Get updates on new shows, playlists, and events.</p>
             <div className="flex gap-2">
-              <Input placeholder="Your email" className="bg-secondary" />
-              <Button>
+              <Input placeholder="Your email" className="bg-secondary" disabled />
+              <Button disabled>
                 <Mail className="h-4 w-4 mr-2" />
                 Subscribe
               </Button>
