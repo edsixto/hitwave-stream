@@ -38,6 +38,16 @@ const Footer = () => {
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">Playlists</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">Schedule</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">DJs</a></li>
+              <li>
+                <a 
+                  href="https://hit95.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-accent hover:text-primary transition"
+                >
+                  This Domain is For Sale
+                </a>
+              </li>
             </ul>
           </div>
           
@@ -61,6 +71,19 @@ const Footer = () => {
                 <Mail className="h-4 w-4 mr-2" />
                 Subscribe
               </Button>
+            </div>
+            <div className="mt-4 p-3 border border-accent/50 rounded-md bg-background/50">
+              <p className="text-sm text-accent">
+                <strong>Domain for Sale:</strong> Interested in Hit95.com? 
+                <a 
+                  href="https://hit95.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="font-bold underline ml-1 hover:text-primary"
+                >
+                  Click here for details
+                </a>
+              </p>
             </div>
           </div>
         </div>

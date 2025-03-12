@@ -30,6 +30,14 @@ const Navbar = () => {
           <Link to="/djs" className="text-muted-foreground hover:text-primary transition">
             DJs
           </Link>
+          <a 
+            href="https://hit95.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-accent font-medium hover:text-primary transition"
+          >
+            For Sale
+          </a>
         </div>
         
         <div className="flex items-center space-x-3">

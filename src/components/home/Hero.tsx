@@ -13,6 +13,17 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
+          <div className="mb-4 inline-block">
+            <a 
+              href="https://hit95.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-accent/80 text-white px-4 py-1 rounded-full text-sm font-medium hover:bg-accent transition-colors"
+            >
+              This domain is for sale at Hit95.com
+            </a>
+          </div>
+          
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               The Hottest Beats
