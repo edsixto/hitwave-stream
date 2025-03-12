@@ -15,12 +15,12 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="mb-4 inline-block">
             <a 
-              href="https://hit95.com" 
+              href="https://mynamebrand.com/name/Hit95.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-accent/80 text-white px-4 py-1 rounded-full text-sm font-medium hover:bg-accent transition-colors"
             >
-              This domain is for sale at Hit95.com
+              This domain is for sale
             </a>
           </div>
           

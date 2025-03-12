@@ -31,7 +31,7 @@ const Navbar = () => {
             DJs
           </Link>
           <a 
-            href="https://hit95.com" 
+            href="https://mynamebrand.com/name/Hit95.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-accent font-medium hover:text-primary transition"

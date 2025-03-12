@@ -40,7 +40,7 @@ const Footer = () => {
               <li><a href="#" className="text-muted-foreground hover:text-primary transition">DJs</a></li>
               <li>
                 <a 
-                  href="https://hit95.com" 
+                  href="https://mynamebrand.com/name/Hit95.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-accent hover:text-primary transition"
@@ -76,7 +76,7 @@ const Footer = () => {
               <p className="text-sm text-accent">
                 <strong>Domain for Sale:</strong> Interested in Hit95.com? 
                 <a 
-                  href="https://hit95.com" 
+                  href="https://mynamebrand.com/name/Hit95.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="font-bold underline ml-1 hover:text-primary"
