@@ -55,21 +55,21 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
 
   return (
     <div className="grid grid-cols-4 gap-2 text-center">
-      <div className="bg-accent/10 rounded px-2 py-1.5">
-        <div className="text-xl font-bold text-accent">{timeLeft.days}</div>
-        <div className="text-xs text-muted-foreground">days</div>
+      <div className="bg-primary rounded px-2 py-1.5 shadow-md">
+        <div className="text-xl font-bold text-white">{timeLeft.days}</div>
+        <div className="text-xs text-white/90">days</div>
       </div>
-      <div className="bg-accent/10 rounded px-2 py-1.5">
-        <div className="text-xl font-bold text-accent">{timeLeft.hours}</div>
-        <div className="text-xs text-muted-foreground">hours</div>
+      <div className="bg-primary rounded px-2 py-1.5 shadow-md">
+        <div className="text-xl font-bold text-white">{timeLeft.hours}</div>
+        <div className="text-xs text-white/90">hours</div>
       </div>
-      <div className="bg-accent/10 rounded px-2 py-1.5">
-        <div className="text-xl font-bold text-accent">{timeLeft.minutes}</div>
-        <div className="text-xs text-muted-foreground">mins</div>
+      <div className="bg-primary rounded px-2 py-1.5 shadow-md">
+        <div className="text-xl font-bold text-white">{timeLeft.minutes}</div>
+        <div className="text-xs text-white/90">mins</div>
       </div>
-      <div className="bg-accent/10 rounded px-2 py-1.5">
-        <div className="text-xl font-bold text-accent">{timeLeft.seconds}</div>
-        <div className="text-xs text-muted-foreground">secs</div>
+      <div className="bg-primary rounded px-2 py-1.5 shadow-md">
+        <div className="text-xl font-bold text-white">{timeLeft.seconds}</div>
+        <div className="text-xs text-white/90">secs</div>
       </div>
     </div>
   );

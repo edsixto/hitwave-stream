@@ -68,19 +68,19 @@ const Hero = () => {
           </div>
           
           <div className="w-full max-w-md">
-            <div className="bg-card/80 backdrop-blur-sm rounded-md p-3 border border-accent/30">
-              <div className="text-sm font-medium mb-2 flex items-center justify-center">
+            <div className="bg-gradient-to-r from-primary/30 to-accent/30 backdrop-blur-sm rounded-md p-4 border border-accent/30 shadow-lg">
+              <div className="text-base font-medium mb-3 flex items-center justify-center">
                 <span className="inline-block mr-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white animate-pulse">
                     <circle cx="12" cy="12" r="10" />
                     <polyline points="12 6 12 12 16 14" />
                   </svg>
                 </span>
-                <span className="text-accent font-bold">Limited Offer: $888</span> - Expires in:
+                <span className="text-white font-bold text-lg">Limited Offer: $888</span> - <span className="text-white/90">Expires in:</span>
               </div>
               <CountdownTimer targetDate={targetDate} />
-              <div className="mt-3 flex justify-center">
-                <Button size="sm" variant="outline" className="gap-2 w-full">
+              <div className="mt-4 flex justify-center">
+                <Button size="lg" className="gap-2 w-full bg-white text-primary hover:bg-white/90 shadow-md">
                   <ExternalLink className="h-4 w-4" />
                   <a 
                     href="https://mynamebrand.com/name/Hit95.com"
